@@ -1,0 +1,29 @@
+{
+    "name": "google-maps-loader",
+    "private": true,
+    "version": "1.0.0",
+    "description": "Google maps loader for systemjs",
+    "main": "src/google-maps-loader.js",
+    "directories": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/joppe/google-maps-loader.git"
+    },
+    "keywords": [
+        "js",
+        "babeljs",
+        "systemjs",
+        "google maps"
+    ],
+    "author": "Joppe Aarts",
+    "license": "MIT",
+    "devDependencies": {
+        "babel": "^5.5.8",
+        "babel-core": "^5.1.13",
+        "es6-module-loader": "^0.16.5",
+        "systemjs": "^0.16.7",
+        "systemjs-builder": "^0.14.10"
+    }
+}
