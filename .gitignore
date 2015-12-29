@@ -1,6 +1,5 @@
 .idea/
 node_modules/
-dist/
-!dist/.gitkeep
+dist/vendor/
 demo/js/*.js
 !demo/js/system.conf.js
