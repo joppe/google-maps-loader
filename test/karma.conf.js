@@ -39,7 +39,7 @@ module.exports = function (config) {
 
                 paths: {
                     'babel': 'node_modules/babel-core/browser.js',
-                    'google-maps': 'http://localhost/google-maps/js?v=3.exp&sensor=true&language=nl'
+                    'google-maps': 'http://localhost/google-maps/js'
                 }
             },
 

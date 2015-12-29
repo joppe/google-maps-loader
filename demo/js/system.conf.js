@@ -10,7 +10,7 @@ System.config({
     },
 
     paths: {
-        'google-maps': 'http://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true&language=nl'
+        'google-maps': 'http://maps.googleapis.com/maps/api/js'
     },
 
     meta: {
