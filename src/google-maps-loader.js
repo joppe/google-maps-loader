@@ -1,7 +1,7 @@
 /*global window,document*/
 
 /**
- * Inject a script tag that points to the google maps file
+ * Add a script tag as a child of the head tag and point it to the provided src.
  *
  * @param {string} src
  */
@@ -16,7 +16,7 @@ function injectScript(src) {
 }
 
 /**
- * Fetch the javascript from the given load object
+ * Fetch the javascript from the given load object.
  *
  * @param {Object} load
  * @returns {Promise}
