@@ -2,7 +2,7 @@
 
 ## Introduction
 
-When importing an es2015 source the following steps (hooks) are done to get the code:
+When importing an es2015 module the following steps (hooks) are done to get the code:
 
 - Normalize the module name
 - Locate, get the url of the file name to load
@@ -35,7 +35,7 @@ The use of a custom loader can be done in two ways:
     });
     ```
 - When importing a module
-    `System.import('some/file.txt!text')`, the excamation mark separates the url to the module and the loader.
+    `System.import('some/file.txt!text')`, the exclamation mark separates the url of the module and the loader.
 
 
 ## Google maps
