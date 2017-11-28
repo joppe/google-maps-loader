@@ -25,6 +25,7 @@ export function fetch(load) {
     let callbackName = '__google_maps_callback__',
         src = load.address;
 
+    src = src.replace(/\.js$/, '');
     src += (src.indexOf('?') < 0) ? '?' : '&';
     src += 'callback=' + callbackName;
 
